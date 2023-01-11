@@ -61,7 +61,7 @@
     flex-direction: column;
   }
   .benefit i {
-    color: #0075FF;
+    color: #f056d6;
     font-size: 7.5rem;
     text-align: center;
   }
@@ -74,24 +74,14 @@
     font-weight: 600;
     text-align: center;
   }
-  .benefit .cta {
-    margin-top: 3rem;
-    color: #0075FF;
-    font-weight: 600;
-    text-align: center;
-  }
-  
+
   .icon-desc {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .icon-desc i {
-    color: #0075FF;
-    font-size: 10rem;
-    padding: 0;
-  }
+
   .icon-desc .title {
     margin-top: -1rem;
     font-size: 1.5rem;
@@ -106,6 +96,13 @@
     padding: 0;
     margin: 0;
   }
+
+  a{
+    text-decoration: none;
+  }
+  a:hover{
+    opacity: 0.70;
+  }
   
   .nav {
     display: flex;
@@ -115,7 +112,21 @@
     height: 4rem;
     border-bottom: solid 1px #ddd;
   }
-  
+
+.input-text{
+  height: 2.1em;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.192);
+  border-radius: 0.3em;
+}
+.input-text:focus{
+  border: 4px solid rgba(238, 129, 211, 0.322);
+  box-shadow: 3px 2px 25px rgb(243, 134, 219) ;
+  box-shadow:  3px 2px 25px rgb(243, 134, 219) ;
+  box-shadow:  3px 2px 25px rgb(243, 134, 219) ;
+ 
+
+}
   .logo a img {
     max-width: 7rem;
   }
@@ -202,7 +213,7 @@
   
   .sec-kpis {
     width: 100%;
-    background-color: #0075FF;
+    background-color: #fd9fed;
     color: white;
     padding: 4rem;
   }
@@ -235,9 +246,9 @@
   .sec-footer-cta {
     background-color: #f4f8fe;
     padding: 5rem;
-    background-image: url("../assets/img/bg.png");
+    background-image: url(https://c0.wallpaperflare.com/preview/994/986/399/chanel-makeup-set.jpg);
     background-repeat: no-repeat;
-    background-position: 100%;
+    background-position: 110%;
   }
   .sec-footer-cta .footer-cta {
     width: 50%;
